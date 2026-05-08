@@ -14,6 +14,6 @@ seaborn
 wordcloud
 pdfplumber
 PyPDF2
-transformers
+transformers==4.37.2
 torch
 xgboost
