@@ -6,13 +6,12 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 import spacy
 
-# Ensure NLTK resources are available (usually handled by setup.sh)
-try:
-    nltk.data.find('tokenizers/punkt')
-    nltk.data.find('corpora/stopwords')
-    nltk.data.find('corpora/wordnet')
-except LookupError:
-    pass
+# Ensure NLTK resources are available
+for resource in ['tokenizers/punkt', 'corpora/stopwords', 'corpora/wordnet', 'taggers/averaged_perceptron_tagger']:
+    try:
+        nltk.data.find(resource)
+    except LookupError:
+        nltk.download(resource.split('/')[-1], quiet=True)
 
 class NLPPreprocessor:
     def __init__(self):
