@@ -1,0 +1,5 @@
+Accuracy,Precision,Recall,F1-Score,Model,Train Time (s),Inference Time (s)
+1.0,1.0,1.0,1.0,Naive Bayes,0.0042,0.002
+1.0,1.0,1.0,1.0,Logistic Regression,2.3146,0.001
+1.0,1.0,1.0,1.0,SVM,0.5413,0.0119
+1.0,1.0,1.0,1.0,Random Forest,0.3516,0.0114

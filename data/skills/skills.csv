@@ -1,0 +1,71 @@
+skill,category
+Python,Programming
+Java,Programming
+C++,Programming
+JavaScript,Programming
+TypeScript,Programming
+Ruby,Programming
+Go,Programming
+Rust,Programming
+C#,Programming
+PHP,Programming
+TensorFlow,Machine Learning
+PyTorch,Machine Learning
+Keras,Machine Learning
+Scikit-learn,Machine Learning
+XGBoost,Machine Learning
+Pandas,Data Science
+NumPy,Data Science
+Matplotlib,Data Science
+Seaborn,Data Science
+Plotly,Data Science
+NLTK,NLP
+spaCy,NLP
+Gensim,NLP
+Transformers,NLP
+BERT,NLP
+Word2Vec,NLP
+GloVe,NLP
+TF-IDF,NLP
+Docker,DevOps
+Kubernetes,DevOps
+AWS,Cloud
+Azure,Cloud
+GCP,Cloud
+Jenkins,DevOps
+Git,VCS
+GitHub,VCS
+GitLab,VCS
+SQL,Database
+MySQL,Database
+PostgreSQL,Database
+MongoDB,Database
+NoSQL,Database
+Redis,Database
+HTML,Web
+CSS,Web
+React,Web
+Angular,Web
+Vue,Web
+Node.js,Web
+Django,Web
+Flask,Web
+FastAPI,Web
+Machine Learning,Domain
+Deep Learning,Domain
+Data Science,Domain
+Artificial Intelligence,Domain
+Data Analysis,Domain
+Computer Vision,Domain
+Natural Language Processing,Domain
+Big Data,Domain
+Spark,Big Data
+Hadoop,Big Data
+Kafka,Big Data
+Excel,Tools
+Tableau,Tools
+PowerBI,Tools
+Linux,OS
+Bash,OS
+Agile,Methodology
+Scrum,Methodology
